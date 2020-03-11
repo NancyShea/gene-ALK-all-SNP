@@ -4,7 +4,7 @@
 #change and it's standard mutation ID like in clinvar.2020.3.11.15:14. 
 
 
-#renumber to change 5 places each time 
+#remember to change 5 places each time 
 
 with open('/Users/Xiecuinan/Desktop/ALK-g38-NP_004295.2.txt') as f:#change1.
     ref = f.read()
@@ -21,7 +21,7 @@ NM =  "NM_004304.5" #change3.depends on gene,must like'"NM_004304.5(ALK):c.*A>A(
 global locID
 locID = 928#change4. geneID,like'928'#fron nm_nnnnnn File,CDS location
 global Chr
-Chr = "2"#5.chromesome number
+Chr = "2"#change5.chromesome number
 global codon_dict
 codon_dict = {
 'TTT':'Phe','TCT':'Ser','TAT':'Tyr','TGT':'Cys',
